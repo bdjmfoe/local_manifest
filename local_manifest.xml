@@ -9,6 +9,5 @@
 <project remote="hub" name="ArrowOS-Devices/android_kernel_realme_sdm660" revision="arrow-13.0" path="kernel/realme/sdm660" />
 <project remote="lab" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" revision="master" path="prebuilts/clang/host/linux-x86/clang-r437112b" />
 <!-- T_T -->
-<remove-project name="LineageOS/android_packages_apps_Camera2" />
 <remove-project name="LineageOS/android_packages_apps_AudioFX" />
 </manifest>
