@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Remote -->
+<remote name="lab" fetch="https://gitlab.com" />
+<remote name="hub" fetch="https://github.com" />
+<!-- Pohon Perangkat -->
+<project remote="hub" name="nxmdicu/rilmitupero" revision="rice" path="device/realme/RMX1801" />
+<project remote="hub" name="ArrowOS-Devices/android_vendor_realme_RMX1801" revision="arrow-13.0" path="vendor/realme" />
+<project remote="hub" name="ArrowOS-Devices/android_kernel_realme_sdm660" revision="arrow-13.0" path="kernel/realme/sdm660" />
+<project remote="lab" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" revision="master" path="prebuilts/clang/host/linux-x86/clang-r437112b" />
+<!-- T_T -->
+<remove-project name="LineageOS/android_packages_apps_Camera2" />
+<remove-project name="LineageOS/android_packages_apps_AudioFX" />
+</manifest>
